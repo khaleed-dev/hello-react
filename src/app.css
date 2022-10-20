@@ -1,0 +1,21 @@
+body{
+    background-color: hsl(0, 0%, 35%);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: hsl(230, 100%, 60%);
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
