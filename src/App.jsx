@@ -1,6 +1,7 @@
 import Hello from './routes/Hello'
 import ThinkReact from './routes/ThinkReact'
 import ReactUi from './routes/ReactUI'
+import AddingInteractivity from './routes/AddingInteractivity'
 import Error from './routes/404'
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './app.css'
@@ -14,13 +15,16 @@ export default function App() {
           <NavLink to="">Home</NavLink>
           <NavLink to="ThinkReact">Think React</NavLink>
           <NavLink to="ReactUi">React UI</NavLink>
+          <NavLink to="InteractiveReact">React Interactivity</NavLink>
         </div>
       </nav>
       <Routes>
         <Route path="/" element={<Hello />} />
         <Route path="ThinkReact" element={<ThinkReact />} />
         <Route path="ReactUI" element={<ReactUi />} />
+        <Route path="InteractiveReact" element={<AddingInteractivity />} />
         <Route path="*" element={<Error />} />
+
       </Routes>
     </BrowserRouter>
   );
