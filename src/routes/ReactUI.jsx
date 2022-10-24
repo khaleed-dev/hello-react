@@ -26,6 +26,8 @@ export default function ReactUI(){
                 <PropsExample />
                 <hr></hr>
                 <CondionalExample />
+                <hr></hr>
+                
             </div>
 
         </>
