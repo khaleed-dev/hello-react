@@ -24,7 +24,7 @@ export default function Info({name}){
                 <li>Then, you will describe the different visual states for each of your components.</li>
                 <li>Finally, you will connect your components together so that the data flows through them.</li>
             </ul>
-            <i><a target={"_blank"} href='https://beta.reactjs.org/learn/thinking-in-react'>Read More</a></i>
+            <i><a target="_blank" rel='noreferrer' href='https://beta.reactjs.org/learn/thinking-in-react'>Read More</a></i>
             <h3>Let's Look at this example:</h3>
             <p>JSON Api data:</p>
             <code>
@@ -61,7 +61,7 @@ export default function Info({name}){
                 <h2>Inverse Dataflow</h2>
                 <ul>
                     <li>Currently you know how app renders correctly with props and state flowing down the hierarchy. But to change the state according to user input, you will need to support data flowing the other way: the form components deep in the hierarchy need to update the state in parent Component.</li>
-                    <li>React makes this data flow explicit, Read More about it here: <a href='https://beta.reactjs.org/learn/thinking-in-react#step-5-add-inverse-data-flow' target={'_blank'}>add-inverse-data-flow</a></li>
+                    <li>React makes this data flow explicit, Read More about it here: <a href='https://beta.reactjs.org/learn/thinking-in-react#step-5-add-inverse-data-flow' target='_blank' rel='noreferrer'>add-inverse-data-flow</a></li>
                 </ul>
             </div>
       </div>
