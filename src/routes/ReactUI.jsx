@@ -29,14 +29,11 @@ export default function ReactUI(){
                 <hr></hr>
                 <CondionalExample />
                 <hr></hr>
-<<<<<<< HEAD
                 
-=======
                 <ScientistList />
                 <RecipesList />
                 <RecipesListSimplified />
                 <Poem />
->>>>>>> 48f661c3b7d154f78b7824777ef290a4bc7a5b47
             </div>
             <hr></hr>
             <PureComponent />
