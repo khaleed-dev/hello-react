@@ -237,7 +237,6 @@ const initialProducts = [{
   name: 'Spaghetti',
   count: 2,
 }];
-
 function ShoppingCart() {
   const [
     products,
@@ -287,6 +286,7 @@ function ShoppingCart() {
     </ul>
   );
 }
+//Challenge2 todolist solved online 
 function UpdatingStateArrays(){
     return(
         <section>
