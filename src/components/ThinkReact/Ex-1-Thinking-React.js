@@ -38,7 +38,7 @@ export default function Info({name}){
                     {'{'} category: "Vegetables", price: "$1", stocked: true, name: "Peas" {'}'}
                 ]
             </code>
-            <p>Design Mockup:</p>
+            <p>Design Mockup:</p>g
             <img src={require('./desgin-mckup-react-learn.png')} style={{width: "250px"}} alt='desgin-mockup'></img>
             <p>Design into components break apart:</p>
             <img src={require('./design-break-apart-react-dark.png')} style={{width: "380px"}} alt='desgin-mockup'></img>
